@@ -1,0 +1,278 @@
+.body-1 {
+    background-image: url("imagen1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+.body-2 {
+    background-image: url("imagen2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    margin: 80px;
+    font-size: 25px;
+  }
+
+.body-3 {
+    background-image: url("imagen3.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }  
+
+ h1 {
+     color: white;
+     text-align: center;
+     font-family:'Poppins', sans-serif;
+     margin: 50px;
+ } 
+
+ h2 {
+     color: white;
+     text-align: center;
+     font-family:'Poppins', sans-serif;
+ }
+ p{
+    color: white;
+    font-family:'Poppins', sans-serif;
+  }
+
+/*blockquote {
+    color: white;
+    background-color: black;
+    opacity: 54%;
+    padding: 80px;
+    text-align: justify;
+    font-family:'Poppins', sans-serif;
+    background-size: auto;
+  }*/
+
+  .cuadrado{
+    padding:80px;
+    text-align: justify;
+    font-family:'Poppins', sans-serif;
+    background-size: auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 80px;
+    }
+
+  .button1 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+  }
+  
+  .button2 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .button3 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .desplazamiento {
+    color: white;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .creacodigo {
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+.body-2  [for=offset] {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.body-2 [id=offset] {
+width: 35px;
+height: 15px;
+}
+
+.body-2  [for=botonencode] {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.body-2 [id=botonencode] {
+
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 931px;
+  cursor: pointer;
+  background-color: white;
+  }
+
+.body-2  [for=resultadoencode] {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.body-2 [id=textoencode] {
+  width: 500px;
+  height: 50px;
+  /*background-color:rgba(0, 0, 0, 0.5)*/
+  }
+
+.body-2 [id=resultadoencode] {
+      width: 500px;
+      height: 50px;
+      }
+
+
+      
+
+.body-2  [for=botonencode] {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.body-2 [id=botonencode] {
+
+  border: none;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 931px;
+  cursor: pointer;
+  background-color: white;
+  }
+
+.body-2  [for=resultadoencode] {
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.body-2 [id=textoencode] {
+  width: 500px;
+  height: 50px;
+  /*background-color:rgba(0, 0, 0, 0.5)*/
+  }
+
+.body-2 [id=resultadoencode] {
+      width: 500px;
+      height: 50px;
+      }
+
+
+      AQUI
+
+      .body-2  [for=botondecode] {
+        color: white;
+        font-family:'Poppins', sans-serif;
+        font-weight: bold;
+      }
+      
+      .body-2 [id=botondecode] {
+      
+        border: none;
+        color: black;
+        padding: 8px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 15px;
+        margin: 0px 905px;
+        cursor: pointer;
+        background-color: white;
+        }
+      
+      .body-2  [for=resultadodecode] {
+        color: white;
+        font-family:'Poppins', sans-serif;
+        font-weight: bold;
+        font-weight: bold;
+        font-size: 21px;
+      }
+      
+      .body-2 [id=textodecode] {
+        width: 500px;
+        height: 50px;
+        /*background-color:rgba(0, 0, 0, 0.5)*/
+        }
+      
+      .body-2 [id=resultadodecode] {
+            width: 500px;
+            height: 50px;
+            }
+
+
+            .body-2  [for=conocecodigo] {
+              font-size: 23px}
+
+              .body-2  [for=resultadodecode] {
+                font-size: 24px}
+      
+
+.body-2 [id=otrocodigo] {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: white;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body-2">
+    <div id="root">
+      <!--<h2>Ingresa el número de desplazamiento indicado en tu boleto</h2>
+<p>El código que puedes COMPARTIR es:</p>
+<p>CONOCE tu código de confirmación </p>
+<p>Tu código de confirmación ES:</p>-->
+
+
+<p>
+  <label for="offset">Ingresa el número de desplazamientos indicado # </label>
+  <input type="number" id="offset" name="offset" min="1" >
+</p>
+
+<p>
+<label> Crea un código de confirmación:</label>
+<input type="text" id="textoencode" name="textoencode" placeholder="Escribe aquí el código que quieres cifrar"><br>
+<input type="submit" id="botonencode" value="Cifrar"><br>
+<p>
+<label for="resultadoencode">El código que puedes compartir es:</label>
+<input type="text" id="resultadoencode" name="resultadoencode" ><br>
+</p>
+</p>
+
+<p>
+  <label for="conocecodigo"> Conoce tu código de confirmación:</label>
+  <input type="text" id="textodecode" name="textodecode" placeholder="Escribe aquí el código que quieres descifrar"><br>
+  <input type="submit" id="botondecode" value="Descifrar"><br>
+  <p>
+  <label for="resultadodecode">Tu código de confirmación es:</label>
+  <input type="text" id="resultadodecode" name="resultadodecode" ><br>
+</p>
+</p>
+
+<!--<button class="button button2" value="reset">Probar otro código</button>  <!--Crear función reset-->
+<input type="reset" id="otrocodigo" value="Prueba otro código">
+
+<button class="button button3" onclick="location.href='pagina3.html'">Terminar</button>
+
+
+</div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
