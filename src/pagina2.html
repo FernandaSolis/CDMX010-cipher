@@ -3,44 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Proyecto Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />  <!--Llama mi css-->
   </head>
   <body class="body-2">
     <div id="root">
-      <!--<h2>Ingresa el número de desplazamiento indicado en tu boleto</h2>
-<p>El código que puedes COMPARTIR es:</p>
-<p>CONOCE tu código de confirmación </p>
-<p>Tu código de confirmación ES:</p>-->
-
-
+<!--Botón para ingresar desplazamiento-->
 <p>
   <label for="offset">Ingresa el número de desplazamientos indicado # </label>
   <input type="number" id="offset" name="offset" min="1" >
 </p>
-
+<!--Caja para ingresar texto a codificar-->
 <p>
 <label> Crea un código de confirmación:</label>
 <input type="text" id="textoencode" name="textoencode" placeholder="Escribe aquí el código que quieres cifrar"><br>
+<!--Boton cifrar-->
 <input type="submit" id="botonencode" value="Cifrar"><br>
+<!--Caja para regresar resultado codificado-->
 <p>
 <label for="resultadoencode">El código que puedes compartir es:</label>
 <input type="text" id="resultadoencode" name="resultadoencode" ><br>
 </p>
 </p>
-
+<!--Caja para ingresar texto a decodificar-->
 <p>
   <label for="conocecodigo"> Conoce tu código de confirmación:</label>
   <input type="text" id="textodecode" name="textodecode" placeholder="Escribe aquí el código que quieres descifrar"><br>
+  <!--Boton descifrar-->
   <input type="submit" id="botondecode" value="Descifrar"><br>
+  <!--Caja para regresar resultado decodificado-->
   <p>
   <label for="resultadodecode">Tu código de confirmación es:</label>
   <input type="text" id="resultadodecode" name="resultadodecode" ><br>
 </p>
 </p>
 
-<!--<button class="button button2" value="reset">Probar otro código</button>  <!--Crear función reset-->
+<!--Botón para limpiar interfaz-->
 <input type="reset" id="otrocodigo" value="Prueba otro código">
-
+<!--Botón para avanzar a página final-->
 <button class="button button3" onclick="location.href='pagina3.html'">Terminar</button>
 
 

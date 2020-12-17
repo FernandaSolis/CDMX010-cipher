@@ -27,11 +27,3 @@ document.getElementById("otrocodigo").addEventListener("click", function(){
     
 
 })
-      
-
-console.log(cipher);
-console.log("Apurate FER")
-
-
-//console.log(cipher.fer())
-

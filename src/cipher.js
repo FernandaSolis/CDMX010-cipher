@@ -1,48 +1,52 @@
 const cipher = {
   // ...Aqui van tus funciones 
   //esto es un objeto
-  //encode()
-  //decode()
- // fer:function(){
-   // return "Hola Soy FER"
-  //}
+  //Función para cifrar
   encode : function (offset, texto){
-    let cifrado='';
-    for (let i = 0; i < texto.length; i++) {
-
-      let ascii = texto.charCodeAt(i);
-      let formula = (ascii - 65 + offset) % 26 + 65;
-      cifrado += String.fromCharCode(formula);
-     
+    //if(!offset){ trhrow new typeError ('tu input en invalido')}
+    if (offset === null && texto === null){
+      throw new TypeError ('Bla bla bla');
+    } else
+    if (offset === null || texto === []){
+      throw new TypeError ('Bla bla bla');
+    } else 
+    if (offset === 0 || texto === 0){
+      throw new TypeError ('Bla bla bla');
+    } else {
+      let cifrado='';
+      for (let i = 0; i < texto.length; i++) {
+  
+        let ascii = texto.charCodeAt(i);
+        let formula = (ascii - 65 + offset) % 26 + 65;
+        cifrado += String.fromCharCode(formula);
+      } 
+      //Regresa cifrado ok
+        return cifrado;
     }
-    //console.log(cifrado); 
-      return cifrado;
-    },//cifrar
-
+  },
+  //Función para descifrar
   decode : function (offset, texto){
-    let cifrado='';
-    for (let i = 0; i < texto.length; i++) {
-  
-      let ascii = texto.charCodeAt(i);
-      let formula = (ascii + 65 - offset) % 26 + 65;
-      cifrado += String.fromCharCode(formula);
-        
-      }
-     
-      return cifrado;
-      },//descifrar  
-   
-
-
-  
-  //cipher.encode(offset, string): offset
-  //cipher.decode(offset, string): offset
-
-
+    if (offset === null && texto === null){
+      throw new TypeError ('Bla bla bla');
+    } else
+    if (offset === null || texto === []){
+      throw new TypeError ('Bla bla bla');
+    } else 
+    if (offset === 0 || texto === 0){
+      throw new TypeError ('Bla bla bla');
+    } else { 
+      let cifrado='';
+      for (let i = 0; i < texto.length; i++) {
+        let ascii = texto.charCodeAt(i);
+        let formula = (ascii + 65 - offset) % 26 + 65;
+        cifrado += String.fromCharCode(formula);  
+        }
+        //Regresa descifrado ok
+        return cifrado;
+    }
+  },  
 };
-
 //recuerda el proposito
 //mandar a consolas
 //detecta el error
-
 export default cipher;
