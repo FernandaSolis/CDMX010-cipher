@@ -1,10 +1,10 @@
-.body-1 {
+.body-1 { /* fondo pantalla 1 */
     background-image: url("imagen1.jpg");
     background-repeat: no-repeat;
     background-size: auto;
   }
 
-.body-2 {
+.body-2 { /* fondo pantalla 2 */
     background-image: url("imagen2.jpg");
     background-repeat: no-repeat;
     background-size: auto;
@@ -13,7 +13,7 @@
     font-size: 25px;
   }
 
-.body-3 {
+.body-3 { /* fondo pantalla 3 */
     background-image: url("imagen3.jpg");
     background-repeat: no-repeat;
     background-size: auto;
@@ -36,17 +36,7 @@
     font-family:'Poppins', sans-serif;
   }
 
-/*blockquote {
-    color: white;
-    background-color: black;
-    opacity: 54%;
-    padding: 80px;
-    text-align: justify;
-    font-family:'Poppins', sans-serif;
-    background-size: auto;
-  }*/
-
-  .cuadrado{
+  .cuadrado{ /*cajas de pagina 1 y 3*/
     padding:80px;
     text-align: justify;
     font-family:'Poppins', sans-serif;
@@ -56,7 +46,7 @@
     margin: 80px;
     }
 
-  .button1 {
+  .button1 { /* boton empezar*/
     border: none;
     color: black;
     padding: 15px 32px;
@@ -72,7 +62,7 @@
     background-color: white;
   }
   
-  .button2 {
+  .button3 { /* boton terminar */
     border: none;
     color: black;
     padding: 15px 32px;
@@ -84,57 +74,28 @@
     margin: 4px 2px;
     cursor: pointer;
     background-color: white;
-  }
-
-  .button3 {
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    background-color: white;
-  }
-
-  .desplazamiento {
-    color: white;
-    text-align: center;
-    font-family:'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: larger;
-  }
-
-  .creacodigo {
-    color: white;
-    font-family:'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: larger;
   }
   
-.body-2  [for=offset] {
+.body-2  [for=offset] { /* texto desplazamiento */
   color: white;
   font-family:'Poppins', sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
 
-.body-2 [id=offset] {
-width: 35px;
-height: 15px;
+.body-2 [id=offset] { /* caja ingresar desplazamiento*/
+  width: 35px;
+  height: 15px;
 }
+/*EMPIEZA CODIFICADO*/
+.body-2 [id=textoencode] { /*texto crea codigo*/
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  /*background-color:rgba(0, 0, 0, 0.5)*/ 
+  }
 
-.body-2  [for=botonencode] {
-  color: white;
-  font-family:'Poppins', sans-serif;
-  font-weight: bold;
-}
-
-.body-2 [id=botonencode] {
-
+.body-2 [id=botonencode] { /* boton cifrar */
   border: none;
   color: black;
   padding: 8px 10px;
@@ -148,7 +109,14 @@ height: 15px;
   background-color: white;
   }
 
-.body-2  [for=resultadoencode] {
+.body-2 [id=resultadoencode] { /* caja texto descifrado*/
+    width: 500px;
+    height: 50px;
+    font-weight: bolder;
+    text-align: center;
+    }
+
+.body-2  [for=resultadoencode] { /* texto código a compartir */
   color: white;
   font-family:'Poppins', sans-serif;
   font-weight: bold;
@@ -156,112 +124,58 @@ height: 15px;
   font-size: 21px;
 }
 
-.body-2 [id=textoencode] {
-  width: 500px;
-  height: 50px;
-  /*background-color:rgba(0, 0, 0, 0.5)*/
-  }
-
-.body-2 [id=resultadoencode] {
-      width: 500px;
-      height: 50px;
-      }
-
-
-      
-
-.body-2  [for=botonencode] {
-  color: white;
-  font-family:'Poppins', sans-serif;
-  font-weight: bold;
-}
-
-.body-2 [id=botonencode] {
-
-  border: none;
-  color: black;
-  padding: 8px 10px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 15px;
-  margin: 0px 931px;
-  cursor: pointer;
-  background-color: white;
-  }
-
-.body-2  [for=resultadoencode] {
+.body-2  [for=resultadoencode] { /* texto código a compartir x2*/
   color: white;
   font-family:'Poppins', sans-serif;
   font-weight: bold;
   font-weight: bold;
   font-size: 21px;
 }
-
-.body-2 [id=textoencode] {
-  width: 500px;
-  height: 50px;
-  /*background-color:rgba(0, 0, 0, 0.5)*/
+/*EMPIEZA DECODIFICADO*/
+  .body-2 [id=botondecode] { /* boton descifrar*/
+      border: none;
+      color: black;
+      padding: 8px 10px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      font-size: 15px;
+      margin: 0px 905px;
+      cursor: pointer;
+      background-color: white;
   }
-
-.body-2 [id=resultadoencode] {
+      
+  .body-2  [for=resultadodecode] { /* texto tu codigo de confirmación*/
+      color: white;
+      font-family:'Poppins', sans-serif;
+      font-weight: bold;
+      font-size: 21px;
+   }
+      
+  .body-2 [id=textodecode] { /* caja de texto conoce codigo*/
       width: 500px;
       height: 50px;
-      }
-
-
-      AQUI
-
-      .body-2  [for=botondecode] {
-        color: white;
-        font-family:'Poppins', sans-serif;
-        font-weight: bold;
-      }
+      text-align: center;
+      /*background-color:rgba(0, 0, 0, 0.5)*/
+  }
       
-      .body-2 [id=botondecode] {
-      
-        border: none;
-        color: black;
-        padding: 8px 10px;
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        font-size: 15px;
-        margin: 0px 905px;
-        cursor: pointer;
-        background-color: white;
-        }
-      
-      .body-2  [for=resultadodecode] {
-        color: white;
-        font-family:'Poppins', sans-serif;
-        font-weight: bold;
-        font-weight: bold;
-        font-size: 21px;
-      }
-      
-      .body-2 [id=textodecode] {
-        width: 500px;
-        height: 50px;
-        /*background-color:rgba(0, 0, 0, 0.5)*/
-        }
-      
-      .body-2 [id=resultadodecode] {
-            width: 500px;
-            height: 50px;
-            }
+  .body-2 [id=resultadodecode] { /* caja de texto con resultado*/
+      width: 500px;
+      height: 50px;
+      font-weight: bolder;
+      text-align: center;
+  }
 
+  .body-2  [for=conocecodigo] { /* texto conoce tu codigo*/
+      font-size: 23px
+  }
 
-            .body-2  [for=conocecodigo] {
-              font-size: 23px}
-
-              .body-2  [for=resultadodecode] {
-                font-size: 24px}
+  .body-2  [for=resultadodecode] { /* texto tu codigo es*/
+      font-size: 24px
+  }
       
-
-.body-2 [id=otrocodigo] {
+.body-2 [id=otrocodigo] { /*boton limpiar consola*/
   border: none;
   color: black;
   padding: 15px 32px;
