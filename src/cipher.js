@@ -1,6 +1,4 @@
 const cipher = {
-  //Aqui declaro funciones 
-  //esto es un objeto
   //Función para cifrar
   encode : function (offset, texto){
     //if(!offset){ trhrow new typeError ('tu input es invalido')}
@@ -14,13 +12,13 @@ const cipher = {
       throw new TypeError ('Caracter no válido');
     } else {
       let cifrado='';
-      for (let i = 0; i < texto.length; i++) { //Bucle para hacer algo repetidamente
+      for (let i = 0; i < texto.length; i++) { 
   
-        let ascii = texto.charCodeAt(i); //charCodeAt me devuelve un número indicando el valor de mi caracter
+        let ascii = texto.charCodeAt(i); 
         let formula = (ascii - 65 + offset) % 26 + 65; 
-        cifrado += String.fromCharCode(formula); // fromCharCode me devuelve mi cadena creada 
+        cifrado += String.fromCharCode(formula); 
       } 
-        return cifrado; //Regresa cifrado ok
+        return cifrado; 
     }
   },
   //Función para descifrar
@@ -40,11 +38,8 @@ const cipher = {
         let formula = (ascii + 65 - offset) % 26 + 65;
         cifrado += String.fromCharCode(formula);  
         }
-        return cifrado; //Regresa descifrado ok
+        return cifrado; 
     }
   },  
 };
-//recuerda el proposito
-//mandar a consolas
-//detecta el error
 export default cipher;
